@@ -1,7 +1,8 @@
 
 public class Persona {
     private String nombre;
-
+    private String apellido;
+    private int doc;
     public String getApellido() {
         return apellido;
     }
@@ -25,8 +26,5 @@ public class Persona {
     public void setDoc(int doc) {
         this.doc = doc;
     }
-
-    private String apellido;
-    private int doc;
 
 }
